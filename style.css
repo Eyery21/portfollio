@@ -29,13 +29,16 @@ main div div {
 
 }
 #titre {
+  align-items: center;
     display: flex;
     flex-direction: column;
 }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
-    position: absolute !important;
+    margin: 0;
+    position: absolute;
     margin-bottom: 20%;
 }
 
@@ -43,9 +46,8 @@ h1 {
 #target {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
-    display: flex;
+    display: fixed;
     margin-left: 1rem;
-    position: relative;
   }
   #target::after {
     content: "";

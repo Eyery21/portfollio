@@ -4,13 +4,21 @@ const animationOver = document.querySelectorAll(".mouse");
 animationOver.forEach(element => {
     element.addEventListener("mouseenter", (e) => {
       element.style.fontSize = "30px";
+      element.style.borderColor = "yellow";
+      element.style.opacity = "70%";
+      element.style.transition = "1s";
+     
     })
+
+    
     element.addEventListener("mouseout", (e) => {
       element.style.fontSize = "20px";
+      element.style.borderColor = "white";
+      element.style.opacity = "100%";
+
     })
-});
-
-
+  });
+  
 const target = document.getElementById("target");
 let array = ["bienvenue", "sur", "mon", "site"];
 let worldIndex = 0;

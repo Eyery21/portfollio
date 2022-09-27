@@ -1,0 +1,30 @@
+@media all and (max-device-width: 480px)
+{
+     * {
+        color: brown;
+        
+     }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .home {
+        width: 100%;
+        max-height: 40vh;
+    }
+    .person {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .person :nth-child(1) {
+        height: 20vh;
+    }
+    .person :nth-child(2) {
+        height: 30vh;
+    }
+    h2 {
+        height: 50%;
+    }
+}

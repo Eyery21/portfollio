@@ -11,20 +11,39 @@
   
     .home {
         width: 100%;
-        max-height: 40vh;
+        max-height: 30vh;
     }
     .person {
+   
+        height: 70vh; 
+    }
+    
+    
+    .person div {
         display: flex;
-        height: 100%;
+        flex-direction: column;
+    } 
+    
+    article {
         width: 100%;
+        max-height: 30vh;
     }
-    .person :nth-child(1) {
-        height: 20vh;
+   div  article {
+    width: 100%;
+    max-height: 30vh;
     }
-    .person :nth-child(2) {
-        height: 30vh;
+    /*
+    .pc h2 {
+        min-width: 1200px;
+        background-size: cover;
+        background-position: center;
     }
+    .about {
+        max-height: 600px;
+        min-width: 1200px;
+    }
+  
     h2 {
         height: 50%;
-    }
+    } */
 }

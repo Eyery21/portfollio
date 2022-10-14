@@ -1,0 +1,76 @@
+
+body {
+    overflow: hidden !important;
+    background: url(./images/pexels-jacub-gomez-1142950.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projet1,
+.projet2,
+.projet3,
+.projet4,
+.projet5,
+.projet6 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 3%;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 49%;
+}
+
+.projet1 a,
+.projet2 a,
+.projet3 a,
+.projet4 a,
+.projet5 a, 
+.projet6 a {
+    margin: auto;
+}
+.projet1 {
+    background: url(./images/Booki\ -\ Google\ Chrome\ 10_10_2022\ 15_21_29.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.projet2 {
+    background: url(./images/Document\ -\ Google\ Chrome\ 12_10_2022\ 09_18_39.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.projet3 {
+    background: url(./images/Document\ -\ Google\ Chrome\ 12_10_2022\ 09_19_15.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.projet4{
+    background: url(./images/Document\ -\ Google\ Chrome\ 12_10_2022\ 09_38_32.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.projet5 {
+    background: url(./images/p6.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.projet6 {
+    background: url(./images/Booki\ -\ Google\ Chrome\ 10_10_2022\ 15_21_29.png);
+    background-size: cover;
+    background-position: center;
+    
+}

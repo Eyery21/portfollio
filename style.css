@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 main {
   display: flex;
 }
@@ -34,6 +38,7 @@ main div {
 
 #titre p {
   min-height: 150px;
+  color: white;
 }
 
 h1 {
@@ -126,6 +131,7 @@ a:visited {
 }
 
 
+
 @keyframes rise {
   from {
     /* pushes the sun down past the viewport */
@@ -173,3 +179,6 @@ a:visited {
     transform: translateX(0);
   }
 }
+
+
+

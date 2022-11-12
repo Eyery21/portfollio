@@ -8,35 +8,123 @@
     <link rel="stylesheet" href="./projet.css" />
   </head>
   <body>
+    <!-- <div class="masque">
+      <div class="message">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam incidunt
+        dolorem ipsam numquam omnis vero, neque optio quas. Voluptatibus aliquid
+        consectetur debitis qui doloremque dicta officiis, perspiciatis placeat
+        aspernatur quasi.
+        <button id="modale_fermer">Fermer</button>
+      </div>
+
+    </div> -->
     <main>
-      <article class="projet1">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"
-          ><button><div>hello</div></button></a
-        >
-      </article>
-      <article class="projet2">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"></a>
-      </article>
-      <article class="projet3">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"
-          ><button><div>hello</div></button></a
-        >
-      </article>
-      <article class="projet4">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"
-          ><button><div>hello</div></button></a
-        >
-      </article>
-      <article class="projet5">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"
-          ><button><div>hello</div></button></a
-        >
-      </article>
-      <article class="projet6">
-        <a href="https://eyery21.github.io/p2_vaury_guillaume/"
-          ><button><div>hello</div></button></a
-        >
-      </article>
+      <!-- <button id="modale_ouvrir">Ouvrir</button> -->
+
+      <div class="mix-container">
+        <div class="mix-button">
+          <button class="button-container" type="button" data-filter="all">
+            Tous les projets
+          </button>
+          <button
+            class="button-container-htmlss"
+            type="button"
+            data-filter=".category-a"
+          ></button>
+          <button
+            class="button-container-seo"
+            type="button"
+            data-filter=".category-b"
+          ></button>
+          <button
+            class="button-container-js"
+            type="button"
+            data-filter=".category-c"
+          ></button>
+          <button
+            class="button-container-api"
+            type="button"
+            data-filter=".category-d"
+          ></button>
+          <button
+            class="button-container-vue"
+            type="button"
+            data-filter=".category-e"
+          ></button>
+        </div>
+        <div class="card">
+          <a
+            class="bubble projet2 mix category-a"
+            data-order="1"
+            href="https://eyery21.github.io/p2_vaury_guillaume/"
+          >
+            <img src="./images/booki.png" alt="" />
+            <div class="filter">
+              <p>Adapter une maquettte</p>
+              <p>technologie utilisée : Html/Css</p>
+            </div>
+          </a>
+          <a
+            class="bubble projet3 mix category-a"
+            data-order="2"
+            href="https://eyery21.github.io/VauryGuillaume_3_01022022/"
+          >
+            <img src="./images/ohmyfood.png" alt="" />
+            <div class="filter">
+              <p>Ajout d'animations et responcive desktop, tablet et mobile</p>
+              <p>technologie utilisée : Html/Css</p>
+            </div>
+          </a>
+          <a
+            class="bubble projet2 mix category-b"
+            data-order="3"
+            href="https://eyery21.github.io/P4_apres/"
+          >
+            <img src="./images/chouetteagence.png" alt="" />
+            <div class="filter">
+              <p>Optimisation d'un site</p>
+              <p>technologie utilisée : Html/Css</p>
+            </div>
+          </a>
+          <a
+            class="bubble projet2 mix category-c"
+            href="https://github.com/Eyery21/kanap-p5"
+          >
+            <img src="./images/kanap.png" alt="" />
+            <div class="filter">
+              <p>Implantation dynamique de produits pour un site e-commerce</p>
+              <p>technologie utilisée : Javascript</p>
+            </div>
+          </a>
+          <a
+            class="bubble projet2 mix category-c category-d"
+            href="https://github.com/Eyery21/p6"
+          >
+            <img src="./images/p6.png" alt="" />
+            <div class="filter">
+              <p>Construction d'une API sécuridée</p>
+              <p>technologie utilisée : Node.js, Express et MongoDB</p>
+            </div>
+          </a>
+          <a
+            class="bubble projet2 mix category-c category-d category-e"
+            href="https://github.com/Eyery21/p7_GROUPOMANIA"
+          >
+            <img src="./images/img p7/screen-post.png" alt="" />
+            <div class="filter">
+              <p>Créez un réseau social d’entreprise</p>
+              <p>technologie utilisée : Vue.js</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </main>
+    <script src="vendor/mixitup.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="project.js"></script>
   </body>
 </html>
